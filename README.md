@@ -44,13 +44,13 @@ The footer is composed as well of icons of my normally used social networks that
 
 #### Hamburguer Menu
 
-To avoid using JavaScript for this project, it was decided to create a hamburger menu by only using HTML (SVG) and CSS. The ideas came from the YouTubers: Kevin Powell and Web Dev Simplified.
+To avoid using JavaScript for this project, it was decided to create a hamburger menu by only using HTML and CSS. The ideas came from the YouTubers: Kevin Powell and Web Dev Simplified.
 
 [Basic, Intermediate & Pro animated hamburger icons](https://www.youtube.com/watch?v=R00QiudbD4Y).
 
 [How To Build An Animated Hamburger Menu With Only CSS](https://www.youtube.com/watch?v=dAIVbLrAb_U).
 
-As it can be seen, the hamburguet consist of 3 svg creating the bars, and a non-visible checkbox to be used as a button. If a button were used instead, JavaScript would have been needed to catch the click event.
+As it can be seen, the hamburguer consists of 3 svg creating the bars, and a non-visible checkbox to be used as a button. If a button were used instead, JavaScript would have been needed to catch the click event.
 
 ### Engineering
 
