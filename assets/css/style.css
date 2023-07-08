@@ -271,12 +271,22 @@ main {
     flex-wrap: wrap;
 }
 
+#engineering:hover {
+    box-shadow: 10px 10px 10px #333;
+    transform: scale(1.02, 1.02);
+}
+
 #writing {
     order: 2;
     background-color: darkgrey;
     height: 45%;
     flex-basis: 58.5%;
     flex-wrap: wrap;
+}
+
+#writing:hover {
+    box-shadow: -10px 10px 10px #333;
+    transform: scale(1.02, 1.02);
 }
 
 #film {
@@ -286,6 +296,11 @@ main {
     height: 40%;
     flex-basis: 37%;
     flex-wrap: wrap;
+}
+
+#film:hover {
+    box-shadow: 10px -10px 10px #333;
+    transform: scale(1.02, 1.02);
 }
 
 #film-article {
@@ -301,6 +316,11 @@ main {
     flex-wrap: wrap;
 }
 
+#music:hover {
+    box-shadow: -5px -10px 10px #333;
+    transform: scale(1.02, 1.02);
+}
+
 #photography {
     align-self: center;
     order: 5;
@@ -308,6 +328,11 @@ main {
     height: 40%;
     flex-basis: 26%;
     flex-wrap: wrap;
+}
+
+#photography:hover {
+    box-shadow: -10px -10px 10px #333;
+    transform: scale(1.02, 1.02);
 }
 
 /* footer */
