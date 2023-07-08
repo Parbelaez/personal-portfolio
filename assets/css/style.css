@@ -182,126 +182,133 @@ h5 {
 
 /* main */
 
-/* main {
+main {
     height: 77.5vh;
-} */
+}
 
-/* .welcome {
-    margin: 5rem 15rem auto;
-} */
+#welcome-box {
+    margin: 5vh 10vw;
+}
+
+.welcome {
+    color: #333;
+}
 
 /* #main-photography {
     height: auto;
 } */
 
-/* index styling */
 
-/* .hobbies-flex {
-    display: flex;
-    height: 90%;
-    box-sizing: border-box;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 1.5%;
-    row-gap: 15px;
-    width: 80%;
-    padding: 5% 2%;
-    margin: 0 auto;
-    justify-content: space-between;
-} */
+/* Tile styling - based on 2x2 grids */
 
-/* .tile {
+.tile {
     display: grid;
     color: white;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
     justify-items: stretch;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: fit-content;
     height: min-content;
-} */
+}
 
-/* .tile-anchor {
-    display: flex;
-    border-radius: 12px;
-    padding-bottom: 2%;
-} */
-
-/* .hobby-icon {
+.hobby-icon {
     font-size: 400%;
     place-self: center;
     grid-column-start: 1;
     grid-column-end: 1;
     margin-left: 30px;
-} */
+}
 
-/* .hobby-box {
+.hobby-box {
     grid-column-start: 2;
     grid-column-end: 5;
     align-self: center;
     margin-right: 30px;
-} */
+}
 
-/* .about {
-    font-weight: 200;
-} */
-
-/* .description {
+.description {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 2;
     margin: auto 30px;
-} */
+}
 
-/* #engineering {
+.tile-anchor {
+    display: flex;
+    border-radius: 12px;
+    padding: 1% 0;
+}
+
+.about {
+    font-weight: 200;
+}
+
+/* Styling for each tile */
+
+.hobbies-flex {
+    display: flex;
+    /* height: 90%; */
+    /* box-sizing: border-box; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 1.5%;
+    row-gap: 15px;
+    width: 90%;
+    padding: 5% 2%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#engineering {
     order: 1;
     background-color: darkolivegreen;
     height: 40%;
     flex-basis: 40%;
     flex-wrap: wrap;
-} */
+}
 
-/* #writing {
+#writing {
     order: 2;
     background-color: darkgrey;
     height: 45%;
-    flex-basis: 55%;
+    flex-basis: 58.5%;
     flex-wrap: wrap;
-} */
+}
 
-/* #film {
+#film {
     align-self: center;
     order: 3;
     background-color: aliceblue;
     height: 40%;
     flex-basis: 37%;
     flex-wrap: wrap;
-} */
+}
 
-/* #film-article {
+#film-article {
     color: dimgray;
-} */
+}
 
-/* #music {
+#music {
     align-self: center;
     order: 4;
     background-color: darkslategray;
     height: 45;
     flex-basis: 33%;
     flex-wrap: wrap;
-} */
+}
 
-/* #photography {
+#photography {
     align-self: center;
     order: 5;
     background-color: darkslateblue;
     height: 40%;
     flex-basis: 26%;
     flex-wrap: wrap;
-} */
+}
 
 /* footer */
 
