@@ -209,7 +209,6 @@ main {
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
     justify-items: stretch;
-    /* box-sizing: border-box; */
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: fit-content;
