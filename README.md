@@ -2,7 +2,6 @@
 
 It is difficult for me to correctly show all my capabilities in a single CV, therefore, I decided to create a portfolio with all my working experience and hobbies with which I can make a living, or could be useful for the visitors of the webpage interests.
 
-
 ![The portfolio, shown on a range of devices](assets/images/devices_render.png)
 
 [View My Portfolio on Github Pages](https://parbelaez.github.io/p1-html-css/)
@@ -19,13 +18,13 @@ As the portfolio is eclectic, it should be as clear and simple as possible.
 
 The logo was inspired by an AI-generated one, from [LOOKA](https://looka.com/), but created manually using Google fonts and [Fontawesome](https://fontawesome.com/) icons
 
-The color scheme is based on different shades of grey, except for the tiles, which were thought as pastel-color items, so their inherent opacity matches the seriousness of the header and the footer.
+The color scheme is based on different shades of grey, except for the tiles, which were thought of as pastel-color items, so their inherent opacity matches the seriousness of the header and the footer.
 
 ### Fonts
 
 Google Fonts is the source of the typography:
 
-[Poppins](https://github.com/itfoundry/poppins): is a geometric sans serif typeface developed by Indian Type Foundry and Jonny Pinhorn.
+[Poppins](https://github.com/itfoundry/poppins) is a geometric sans serif typeface developed by Indian Type Foundry and Jonny Pinhorn.
 
 ### Icons and images
 
@@ -51,7 +50,7 @@ To avoid using JavaScript for this project, it was decided to create a hamburger
 
 [How To Build An Animated Hamburger Menu With Only CSS](https://www.youtube.com/watch?v=dAIVbLrAb_U).
 
-As it can be seen, the hamburger consists of 3 svg creating the bars, and a non-visible checkbox to be used as a button. If a button were used instead, JavaScript would have been needed to catch the click event.
+As can be seen, the hamburger consists of 3 SVG creating the bars, and a non-visible checkbox to be used as a button. If a button were used instead, JavaScript would have been needed to catch the click event.
 
 ### Engineering
 
@@ -63,7 +62,7 @@ This one was used to practice the usage of the background image, and the hover d
 
 #### Used Technologies
 
-All the previous, plus some snippets from [Codepen](https://codepen.io/wall-e/pen/zvvgBe)](https://codepen.io/wall-e/pen/zvvgBe).
+All the previous, plus some snippets from [Codepen](https://codepen.io/wall-e/pen/zvvgBe).
 
 ### Writing
 
@@ -90,7 +89,7 @@ Flexbox was used to create the matrix.
 The GitHub Pages feature was used to deploy the live website. The instructions to achieve this are below:
 
 1. Log in (or sign up) to Github.
-2. Find the repository for this project, p1-html-css.
+2. Find the repository for this project, _p1-html-css_.
 3. Click on the Settings link.
 4. Click on the Pages link in the left-hand side navigation bar.
 5. In the Source section, choose main from the drop-down select branch menu. Select Root from the drop-down select folder menu.
@@ -145,7 +144,6 @@ Spotify: *"Error: Bad value 100% for attribute width on element iframe: Expected
 ### CSS Errors
 
 - The w3c html validation is considered OK, as the errors are coming directly from the fonts and icons imports from Google Fonts and Fontawesome.
-
 
 ## Credits
 
