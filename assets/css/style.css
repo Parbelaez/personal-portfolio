@@ -140,6 +140,26 @@ header {
     float: left;
     width: 90px;
     text-align: center;
+    /* text-shadow: 2px 2px 10px yellow; */
+    animation: turn-on 4s linear forwards 0.5s infinite;
+}
+
+/* #lightbulb {
+    transition: text-shadow 1s linear 1s;
+} */
+
+@keyframes turn-on {
+    0% {
+        text-shadow: 0px 0px 0px yellow;
+    }
+
+    50% {
+        text-shadow: 0px 0px 30px yellow;
+    }
+
+    100% {
+        text-shadow: 0px 0px 0px yellow;
+    }
 }
 
 h1 {
