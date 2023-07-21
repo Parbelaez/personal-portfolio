@@ -188,10 +188,12 @@ main {
 
 #welcome-box {
     padding: 5vh 10vw;
+    background-image: linear-gradient(dimgray, lightgrey);
+    text-shadow: 2px 2px 10px black;
 }
 
 .welcome {
-    color: #3A3A3A;
+    color: whitesmoke;
     text-align: center;
 }
 
