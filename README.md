@@ -135,7 +135,7 @@ None so far
 
 ### HTML Errors
 
-- The w3c html validation is considered as OK, as the errors are coming directly from the iframes given by the YouTube and Spotify codes.
+- The w3c html validation is considered to be OK, as the errors are coming directly from the iframes given by the YouTube and Spotify codes.
 
 YouTube: *"Error: The frameborder attribute on the iframe element is obsolete. Use CSS instead."*
 
