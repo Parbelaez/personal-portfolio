@@ -133,7 +133,6 @@ body {
 
 header {
     height: 12.5vh;
-    /* background-color: dimgray; */
     overflow: hidden;
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
@@ -148,7 +147,6 @@ header {
     float: left;
     width: 90px;
     text-align: center;
-    /* text-shadow: 2px 2px 10px yellow; */
     animation: turn-on 4s linear forwards 0.5s infinite;
 }
 
@@ -414,8 +412,8 @@ footer div {
 /* general */
 
 .hobby-body {
-    margin: 5%;
-    height: 63.5vh;
+    padding: 5%;
+    /* height: 63.5vh; */
 }
 
 /* engineering */
