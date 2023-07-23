@@ -110,6 +110,13 @@ body {
     min-height: 100vh;
 }
 
+.sidebar nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 30%;
+}
+
 .hamburger-menu:has(input:checked)+.sidebar {
     translate: 0;
 }
@@ -205,11 +212,11 @@ h5 {
 /* main */
 
 main {
-    height: 79.5vh;
+    min-height: 78.5vh;
 }
 
 #welcome-box {
-    padding: 5vh 10vw;
+    padding: 3vh 10vw;
     /* background-image: linear-gradient(dimgray, lightgrey); */
     text-shadow: 2px 2px 10px black;
 }
@@ -360,7 +367,10 @@ main {
 /* footer */
 
 footer {
-    height: 8vh;
+    height: 80px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
     background-color: dimgray;
 }
 
