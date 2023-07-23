@@ -338,7 +338,7 @@ main {
     align-self: center;
     order: 4;
     background-color: darkslategray;
-    height: 45;
+    height: 40%;
     flex-basis: 33%;
     flex-wrap: wrap;
 }
@@ -461,8 +461,8 @@ footer div {
 .thumb:hover,
 .thumb:hover span {
     visibility: visible;
-    top: relative;
-    left: relative;
+    /* top: relative;
+    left: relative; */
     z-index: 1;
 }
 
