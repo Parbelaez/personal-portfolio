@@ -364,6 +364,10 @@ footer {
     background-color: dimgray;
 }
 
+.floating-footer{
+    height: 80px;
+}
+
 .social-networks {
     text-align: center;
 }
@@ -528,7 +532,11 @@ footer div {
 
 /* photography */
 
-/* /* .pics {
+#main-photography {
+    height: fit-content;
+}
+
+.pics {
     max-width: 300px;
     min-width: 200px
 }
@@ -546,6 +554,7 @@ footer div {
     justify-content: center;
 }
 
+/*
 @media (max-width: 1400px) {
 
     main {
