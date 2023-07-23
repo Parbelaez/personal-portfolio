@@ -407,7 +407,7 @@ footer div {
 /* engineering */
 /* pop-up image test taken from https: //codepen.io/wall-e/pen/zvvgBe */
 
-/* #engineering-page {
+#engineering-page {
     height: 77.5vh;
     margin: auto 5%;
 }
@@ -456,7 +456,7 @@ footer div {
 
 .thumb img {
     width: 350px;
-} */
+}
 
 /* writing */
 
