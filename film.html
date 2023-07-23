@@ -14,7 +14,22 @@
 </head>
 
 <body>
+    <div id="hamburger">
+        <label class="hamburger-menu">
+            <input type="checkbox" />
+        </label>
+        <aside class="sidebar">
+            <nav>
+                <div>Engineering</div>
+                <div>Writing</div>
+                <div>Film</div>
+                <div>Music</div>
+                <div>Photography</div>
+            </nav>
+        </aside>
+    </div>
     <header>
+        <!-- Bulb and name logo styled as float elements -->
         <div id="logo">
             <a href="index.html" class="no-decoration-link">
                 <div id="bulb" class="header-text"><i class="fa-regular fa-lightbulb" id="lightbulb"></i></div>
@@ -24,22 +39,12 @@
                 </div>
             </a>
         </div>
+        <!-- Languages and hamburger menu styled as float in banner -->
         <div id="languages">
             <h5 class="header-text">
-                <a href="film.html" class="active no-decoration-link header-text">Eng</a> /
-                <a href="cine.html" class="no-decoration-link header-text">Spa</a>
+                <a href="index.html" class="active no-decoration-link header-text">Eng</a> /
+                <a href="./langs/es/index-es.html" class="no-decoration-link header-text">Spa</a>
             </h5>
-
-            <!--ADDED FOR THE NAVIGATION BAR ONLY ON THE PAGES, NOT THE INDEX-->
-
-            <a href="index.html" class="no-decoration-link">
-                <div id="back-button">
-                    <h5>Back to main</h5>
-                </div>
-            </a>
-
-            <!--ADDED FOR THE NAVIGATION BAR ONLY ON THE PAGES, NOT THE INDEX-->
-
         </div>
     </header>
 
@@ -102,27 +107,31 @@
     </main>
 
     <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://www.linkedin.com/in/paulo-arbeláez-42316658/" target="blank" rel="noopener"
-                    aria-label="My LinkedIn profile (opens in a new tab)"><i class="fa-brands fa-linkedin"></i></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/@pauloarbelaez/videos" target="blank" rel="noopener"
-                    aria-label="Visit my YouTube channel (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://open.spotify.com/artist/7eOzbGpPGeTXEvZq4GajZc?si=bEiYelm2QNuVSdEY7XG_lg"
-                    target="blank" rel="noopener"
-                    aria-label="My band, Johnie All Stars, music (opens Spotify in a new tab)"><i
-                        class="fa-brands fa-spotify"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/pauloarbelaez/" target="blank" rel="noopener"
-                    aria-label="Visit my Instagram account (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
+        <div>
+            <ul class="social-networks">
+                <li>
+                    <span><a href="https://www.linkedin.com/in/paulo-arbeláez-42316658/" target="blank" rel="noopener"
+                            aria-label="My LinkedIn profile (opens in a new tab)"><i
+                                class="fa-brands fa-linkedin"></i></a></span>
+                </li>
+                <li>
+                    <span><a href="https://www.youtube.com/@pauloarbelaez/videos" target="blank" rel="noopener"
+                            aria-label="Visit my YouTube channel (opens in a new tab)"><i
+                                class="fa-brands fa-youtube"></i></a></span>
+                </li>
+                <li>
+                    <span><a href="https://open.spotify.com/artist/7eOzbGpPGeTXEvZq4GajZc?si=bEiYelm2QNuVSdEY7XG_lg"
+                            target="blank" rel="noopener"
+                            aria-label="My band, Johnie All Stars, music (opens Spotify in a new tab)"><i
+                                class="fa-brands fa-spotify"></i></a></span>
+                </li>
+                <li>
+                    <span><a href="https://www.instagram.com/pauloarbelaez/" target="blank" rel="noopener"
+                            aria-label="Visit my Instagram account (opens in a new tab)"><i
+                                class="fa-brands fa-instagram"></i></a></span>
+                </li>
+            </ul>
+        </div>
     </footer>
     <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/9bfbae9483.js" crossorigin="anonymous"></script>

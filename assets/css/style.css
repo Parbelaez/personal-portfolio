@@ -399,10 +399,10 @@ footer div {
 
 /* general */
 
-/* .hobby-body {
+.hobby-body {
     margin: 5%;
     height: 63.5vh;
-} */
+}
 
 /* engineering */
 /* pop-up image test taken from https: //codepen.io/wall-e/pen/zvvgBe */
@@ -470,7 +470,7 @@ footer div {
 
 /* film */
 
-/* .youtube-videos {
+.youtube-videos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -480,11 +480,11 @@ footer div {
     align-items: center;
     padding: 2% 0%;
     margin: 0 auto;
-} */
+}
 
-/* .youtube-videos iframe {
+.youtube-videos iframe {
     width: auto;
-} */
+}
 
 /* music */
 
