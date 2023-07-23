@@ -460,10 +460,13 @@ footer div {
 
 /* writing */
 
-/* #writing-page {
+#writing-page {
     display: flex;
     align-items: center;
-} */
+    width: 75vw;
+    justify-self: center;
+    font-size: x-large;
+}
 
 /* film */
 
