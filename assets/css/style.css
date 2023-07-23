@@ -488,7 +488,7 @@ footer div {
 
 /* music */
 
-/* #music-box-1>img {
+#music-box-1>img {
     width: 20%;
     min-width: 176px;
     float: left;
@@ -524,7 +524,7 @@ footer div {
 #spotify-loader {
     display: contents;
     flex-basis: 50%;
-} */
+}
 
 /* photography */
 
