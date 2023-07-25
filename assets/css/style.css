@@ -234,6 +234,12 @@ h5 {
 
 /* Top right menu and language options */
 
+#languages {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
 #lang-menu{
     max-width: 70%;
     height: 100%;
