@@ -25,7 +25,7 @@ It is difficult for me to correctly show all my capabilities in a single CV, the
 
 As the portfolio is eclectic, it should be as clear and simple as possible.
 
-The logo was inspired by an AI-generated one from [LOOKA](https://looka.com/), but created manually using Google fonts and [Fontawesome](https://fontawesome.com/) icons.
+The logo was inspired by an AI-generated one from [LOOKA](https://looka.com/) but created manually using Google fonts and [Fontawesome](https://fontawesome.com/) icons.
 
 The color scheme is based on different shades of grey, except for the tiles, which were thought of as pastel-color items, so their inherent opacity matches the seriousness of the header and the footer.
 
@@ -55,7 +55,7 @@ I chose to use a tiling system in the index to be similar to a mobile app, with 
 
 The footer is composed as well of icons of my normally used social networks that could help the user know more about my work.
 
-#### Hamburguer Menu
+#### Hamburger Menu
 
 To avoid using JavaScript for this project, it was decided to create a hamburger menu by only using HTML and CSS. The code came from the YouTuber Kyle Cook of Web Dev Simplified.
 
