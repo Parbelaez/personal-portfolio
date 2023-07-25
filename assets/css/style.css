@@ -702,8 +702,31 @@ footer div {
         flex-basis: 100%;
     }
 
+    /* #writing-page {
+            font-size: x-large;
+    } */
+}
+
+@media (max-width: 1150px) {
+
     #writing-page {
-            font-size: large;
+        font-size: larger;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    #writing-page {
+        grid-template-columns: 1fr;
+        padding: 5%;
+    }
+
+    .youtube-videos {
+        width: 100%;
+        justify-content: center;
+        padding: 2% 2%;
+        margin: 0 auto;
+        */
     }
 }
 
@@ -727,17 +750,6 @@ footer div {
 
     #photography {
         flex-basis: 100%;
-    }
-}
-
-@media (max-width: 1050px) {
-
-    .youtube-videos {
-        width: 100%;
-        justify-content: center;
-        padding: 2% 2%;
-        margin: 0 auto;
-        */
     }
 }
 
