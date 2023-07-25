@@ -200,10 +200,11 @@ h5 {
 #logo {
     float: left;
     padding: 1.5% 0;
-    min-width: 30%;
+    min-width: 35%;
 }
 
 /* Menu buttons */
+
 .btn--menu button{
     width: 8em;
     height: 3em;
@@ -282,7 +283,6 @@ main {
 
 #welcome-box {
     padding: 3vh 10vw;
-    /* background-image: linear-gradient(dimgray, lightgrey); */
     text-shadow: 2px 2px 10px black;
 }
 
@@ -291,11 +291,6 @@ main {
     text-align: center;
     margin: 0 auto;
 }
-
-/* #main-photography {
-    height: auto;
-} */
-
 
 /* Tile styling - based on 2x2 grids */
 
@@ -455,6 +450,7 @@ footer div {
 }
 
 /* one row instead of column of the list of icons */
+
 .social-networks li {
     display: inline;
 }
@@ -522,8 +518,6 @@ footer div {
 .thumb:hover,
 .thumb:hover span {
     visibility: visible;
-    /* top: relative;
-    left: relative; */
     z-index: 1;
 }
 
@@ -644,33 +638,38 @@ footer div {
     justify-content: center;
 }
 
+/* Media queries */
 
 @media (max-width: 1400px) {
 
     .youtube-videos {
-            width: 70%;
-            padding: 2% 2%;
-            margin: 0 auto; */
+        width: 70%;
+        padding: 2% 2%;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 1300px) {
 
     h1 {
-            font-size: x-large;
+        font-size: x-large;
     }
 
     h3 {
-            font-size: medium;
+        font-size: medium;
     }
 
     h5 {
-            font-size: smaller;
+        font-size: smaller;
+    }
+
+    #catch-phrase {
+        font-size: medium;
     }
 
     #lang-menu {
-            gap: 0.5em;
-            padding: 1em;
+        gap: 0.5em;
+        padding: 1em;
     }
 
     .btn--menu button {
@@ -683,7 +682,7 @@ footer div {
     }
 
     #engineering {
-            flex-basis: 40%;
+        flex-basis: 40%;
     }
 
     #writing {
@@ -701,10 +700,6 @@ footer div {
     #photography {
         flex-basis: 100%;
     }
-
-    /* #writing-page {
-            font-size: x-large;
-    } */
 }
 
 @media (max-width: 1150px) {
@@ -726,7 +721,35 @@ footer div {
         justify-content: center;
         padding: 2% 2%;
         margin: 0 auto;
-        */
+    }
+}
+
+@media (max-width: 1020px){
+
+    /* header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } */
+
+    #logo{
+        min-width: 50%;
+        height: 100%;
+    }
+
+    #lang-menu {
+        flex-direction: column-reverse;
+        justify-items:flex-end;
+        align-items: flex-end;
+        margin-top: 1.5em;
+        margin-right: 5em;
+    }
+
+    #sections-bar {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
     }
 }
 
@@ -754,137 +777,6 @@ footer div {
 }
 
 /*
-    main {
-        height: fit-content;
-    }
-
-    .hobby-body {
-        height: fit-content;
-    }
-
-    #writing-page {
-        height: 63.5vh;
-    }
-
-    #engineering {
-        order: 1;
-        background-color: darkolivegreen;
-        height: auto;
-        flex-basis: 45%;
-        flex-wrap: wrap;
-    }
-
-    .tile p {
-        align-self: start;
-    }
-
-    #writing {
-        order: 2;
-        background-color: darkgrey;
-        height: auto;
-        flex-basis: 45%;
-        flex-wrap: wrap;
-    }
-
-    #film {
-        align-self: center;
-        order: 3;
-        background-color: aliceblue;
-        height: auto;
-        flex-basis: 45%;
-        flex-wrap: wrap;
-    }
-
-    .youtube-videos {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 70%;
-        justify-content: center;
-        align-items: center;
-        padding: 2% 2%;
-        margin: 0 auto;
-    }
-
-    #music {
-        align-self: center;
-        order: 4;
-        background-color: darkslategray;
-        height: auto;
-        flex-basis: 45%;
-        flex-wrap: wrap;
-    }
-
-    #photography {
-        align-self: center;
-        order: 5;
-        background-color: darkslateblue;
-        height: auto;
-        flex-basis: 100%;
-        flex-wrap: wrap;
-    }
-
-    footer {
-        height: 10vh;
-    }
-
-}
-
-@media (max-width: 900px) {
-
-    #engineering {
-        flex-basis: 100%;
-    }
-
-    .tile p {
-        align-self: start;
-    }
-
-    #writing {
-        flex-basis: 100%;
-    }
-
-    #film {
-        flex-basis: 100%;
-    }
-
-    #music {
-        flex-basis: 100%;
-    }
-
-    #photography {
-        flex-basis: 100%;
-    }
-
-    /* #languages {
-        margin-right: 1%;
-        font-size: small;
-    }
-
-    #languages h5 {
-        letter-spacing: 1px;
-    } */
-/* }
-
-@media (min-width: 766px) {
-
-    #engineering-text {
-        overflow-y: hidden;
-    }
-}
-
-@media (max-width: 610px) {
-
-    #languages {
-        margin-right: 5%;
-        font-size: small;
-    }
-
-    #languages h5 {
-        letter-spacing: 1px;
-    }
-}
-
 @media (max-width: 600px) {
 
     header {
