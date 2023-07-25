@@ -167,6 +167,8 @@ To clone the personal-portfolio repository:
 - Images not loading due to the wrong path.
 - "a" attribute is given mistakenly to the image contained in it.
 - Resizing issues due to the min-max height threshold not being defined.
+- The hamburger menu was not working properly on the engineering page.!!!!!!!!!!!!!
+- The hamburger menu was not working properly on the film page. It was due to an incorrect label assigned to the input.
 
 ### HTML Errors
 
