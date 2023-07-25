@@ -195,7 +195,7 @@ h5 {
 #logo {
     float: left;
     padding: 1.5% 0;
-    width: 50%;
+    min-width: 30%;
 }
 
 /* Menu buttons */
@@ -235,12 +235,14 @@ h5 {
 /* Top right menu and language options */
 
 #lang-menu{
-    width: 50%;
+    max-width: 70%;
     height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: center;
+    gap: 1em;
+    padding: 2em;
 }
 
 /* main */
