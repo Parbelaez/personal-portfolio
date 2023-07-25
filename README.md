@@ -2,7 +2,7 @@
 
 It is difficult for me to correctly show all my capabilities in a single CV, therefore, I decided to create a portfolio with all my working experience and hobbies with which I can make a living, or could be useful for the visitors of the webpage interests.
 
-![The portfolio, shown on a range of devices](assets/images/devices_render.png)
+![The portfolio, shown on a range of devices](assets/images/readme/responsiveness.png)
 
 [View My Portfolio on GitHub Pages](https://parbelaez.github.io/personal-portfolio/)
 
