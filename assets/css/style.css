@@ -726,25 +726,12 @@ footer div {
 
 @media (max-width: 1020px){
 
-    /* header {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    } */
-
     #logo{
-        min-width: 50%;
+        min-width: 70%;
         height: 100%;
     }
 
     #lang-menu {
-        flex-direction: column-reverse;
-        justify-items:flex-end;
-        align-items: flex-end;
-        margin-top: 1.5em;
-        margin-right: 5em;
-    }
-
-    #sections-bar {
         display: none;
     }
 
@@ -773,6 +760,53 @@ footer div {
 
     #photography {
         flex-basis: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #logo {
+        min-width: 80%;
+    }
+
+    .no-decoration-link {
+        display: flex;
+    }
+
+    #bulb {
+        width: 60px;
+        margin-left: 0.3em
+    }
+
+    #name-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: large;
+        margin-left: 0;
+    }
+
+    #catch-phrase {
+        font-size: small;
+        margin-left: 0;
+    }
+
+    .hamburger-menu {
+        top: 0.5vh;
+    }
+
+    :root {
+        --bar-width: 40px;
+        --bar-height: 4px;
+        --hamburger-gap: 4.5px;
+    }
+
+
+    .welcome {
+        font-size: large;
     }
 }
 
