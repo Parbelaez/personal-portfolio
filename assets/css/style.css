@@ -529,8 +529,7 @@ footer div {
 /* writing */
 
 #writing-page {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     align-items: center;
     justify-self: center;
     font-size: x-large;
@@ -766,6 +765,10 @@ footer div {
     #photography {
         flex-basis: 100%;
     }
+
+    #writing-page {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 600px) {
@@ -813,6 +816,14 @@ footer div {
     .welcome {
         font-size: large;
     }
+}
+
+@media (max-width: 540px) {
+
+    .pdf {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 /*
