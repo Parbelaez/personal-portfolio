@@ -46,15 +46,19 @@ Icons were used directly from [Fontawesome](https://fontawesome.com/).
 
 Images were obtained from my archive and [Pexels](https://www.pexels.com/)
 
----
+### Menu
 
-## Content Pages
+A new common menu can be found on all the pages, with a hover effect on the links.
+This menu will change the previous concept to a more easy-to-navigate one.
+The back to main was kept, but it is (obviously) only visible on the pages that are not the main.
 
-### index.html -landing page-
+![Menu](./assets/images/readme/menu.png)
 
-I chose to use a tiling system in the index to be similar to a mobile app, with an icon, title, catchphrase, and a brief description. I considered this approach to be the best to give each section the same importance.
+The effect on the hover replicates the animation of the lightbulb to keep consistency with the logo.
 
-The footer is composed as well of icons of my normally used social networks that could help the user know more about my work.
+![Menu Button Hover effect](./assets/images/readme/menu_animation.gif)
+
+This menu is only visible on desktop devices, and it is hidden on smaller screens, for which a hamburger menu was added.
 
 #### Hamburger Menu
 
@@ -69,6 +73,16 @@ The hamburger menu is only visible on mobile devices, and it is hidden on larger
 ![Hamburger menu closed](./assets/images/readme/hamburger_closed.png)
 
 ![Hamburger menu open](./assets/images/readme/hamburger_open.png)
+
+---
+
+## Content Pages
+
+### index.html -landing page-
+
+I chose to use a tiling system in the index to be similar to a mobile app, with an icon, title, catchphrase, and a brief description. I considered this approach to be the best to give each section the same importance.
+
+The footer is composed as well of icons of my normally used social networks that could help the user know more about my work.
 
 ### Engineering
 
