@@ -177,10 +177,18 @@ h1 {
     margin-left: 30px;
 }
 
-h2 {
+#catch-phrase {
     text-transform: uppercase;
     font-weight: 200;
     font-size: large;
+    letter-spacing: 4px;
+    color: white;
+    margin-left: 30px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 200;
     letter-spacing: 4px;
     color: white;
     margin-left: 30px;
