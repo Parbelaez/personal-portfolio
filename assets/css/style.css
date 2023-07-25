@@ -824,6 +824,10 @@ footer div {
         grid-template-columns: 1fr;
     }
 
+    .social-networks span {
+        padding: 2% 2% 2% 8%;
+    }
+
 }
 
 /*
