@@ -289,6 +289,7 @@ main {
 .welcome {
     color: whitesmoke;
     text-align: center;
+    margin: 0 auto;
 }
 
 /* #main-photography {
@@ -652,6 +653,94 @@ footer div {
             margin: 0 auto; */
     }
 }
+
+@media (max-width: 1300px) {
+
+    h1 {
+            font-size: x-large;
+    }
+
+    h3 {
+            font-size: medium;
+    }
+
+    h5 {
+            font-size: smaller;
+    }
+
+    #lang-menu {
+            gap: 0.5em;
+            padding: 1em;
+    }
+
+    .btn--menu button {
+        margin: 0;
+        width: 7em;
+    }
+
+    .lang-back-text {
+        font-size: smaller;
+    }
+
+    #engineering {
+            flex-basis: 40%;
+    }
+
+    #writing {
+        flex-basis: 55%;
+    }
+
+    #film{
+        flex-basis: 55%;
+    }
+
+    #music {
+        flex-basis: 40%;
+    }
+
+    #photography {
+        flex-basis: 100%;
+    }
+
+    #writing-page {
+            font-size: large;
+    }
+}
+
+@media (max-width: 900px) {
+
+    #engineering {
+        flex-basis: 100%;
+    }
+
+    #writing {
+        flex-basis: 100%;
+    }
+
+    #film {
+        flex-basis: 100%;
+    }
+
+    #music {
+        flex-basis: 100%;
+    }
+
+    #photography {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    .youtube-videos {
+        width: 100%;
+        justify-content: center;
+        padding: 2% 2%;
+        margin: 0 auto;
+        */
+    }
+}
+
 /*
     main {
         height: fit-content;
