@@ -708,9 +708,6 @@ footer div {
         font-size: larger;
     }
 
-    /* #writing-page article {
-        grid-column: 1 / 3;
-    } */
 }
 
 @media (max-width: 1050px) {
@@ -829,39 +826,3 @@ footer div {
     }
 
 }
-
-/*
-@media (max-width: 600px) {
-
-    header {
-        height: auto;
-    }
-
-    h1 {
-        font-size: x-large;
-    }
-
-    h3 {
-        font-size: medium;
-    }
-
-    h5 {
-        font-size: smaller;
-    }
-
-    /* #languages {
-        margin-right: auto;
-    } */
-
-    /* footer {
-        height: auto;
-    }
-
-    #engineering-page {
-        height: 84vh;
-    }
-
-    #writing-page {
-        height: 84vh;
-    }
-} */
