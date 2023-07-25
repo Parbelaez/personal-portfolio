@@ -16,6 +16,7 @@ It is difficult for me to correctly show all my capabilities in a single CV, the
 
 - Complete redesign of the webpage, with a new header blending with the background of the page.
 - New logo, with an animation of the lightbulb turning on and off.
+- New menu for desktop, with a hover effect on the links.
 - New hamburger menu, with an animation of the lines turning into an X.
 - New hover effect on the tiles, making them more 3D realistic.
 - Bigger font size for better readability.

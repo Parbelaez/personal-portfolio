@@ -151,10 +151,6 @@ header {
     animation: turn-on 4s linear forwards 0.5s infinite;
 }
 
-/* #lightbulb {
-    transition: text-shadow 1s linear 1s;
-} */
-
 @keyframes turn-on {
     0% {
         text-shadow: 0px 0px 0px yellow;
@@ -214,6 +210,24 @@ h5 {
     border-radius: 12px;
     cursor: pointer;
     margin: 0.5em;
+}
+
+.btn--menu button:hover {
+    animation: btn--turn-on 2s linear forwards infinite;
+}
+
+@keyframes btn--turn-on {
+    0% {
+        box-shadow: 0px 0px 0px yellow;
+    }
+
+    50% {
+        box-shadow: 0px 0px 30px yellow;
+    }
+
+    100% {
+        box-shadow: 0px 0px 0px yellow;
+    }
 }
 
 #btn--engineering {
