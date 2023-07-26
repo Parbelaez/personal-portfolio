@@ -1,5 +1,7 @@
 # Welcome to my portfolio
 
+## Introduction
+
 It is difficult for me to correctly show all my capabilities in a single CV, therefore, I decided to create a portfolio with all my working experience and hobbies with which I can make a living, or could be useful for the visitors of the webpage interests.
 
 ![The portfolio, shown on a range of devices](assets/images/readme/responsiveness.png)
@@ -21,6 +23,33 @@ It is difficult for me to correctly show all my capabilities in a single CV, the
 - New hover effect on the tiles, making them more 3D realistic.
 - Bigger font size for better readability.
 - Writing page: added thumbnails of the articles I have written, with a link to the original article in pdf format.
+
+## Table of Contents
+
+- [UI / UX Concept](#ui--ux-concept)
+  - [Fonts](#fonts)
+  - [Icons and images](#icons-and-images)
+  - [Menu](#menu)
+    - [Hamburger Menu](#hamburger-menu)
+- [Content Pages](#content-pages)
+  - [index.html -landing page-](#indexhtml--landing-page-)
+  - [Engineering](#engineering)
+  - [Writing](#writing)
+  - [Film](#film)
+  - [Music](#music)
+  - [Photography](#photography)
+- [Deployment & Local Development](#deployment--local-development)
+  - [Deployment](#deployment)
+  - [Development](#development)
+    - [How to Fork](#how-to-fork)
+    - [How to Clone](#how-to-clone)
+- [Bug reports and errors](#bug-reports-and-errors)
+  - [Known bugs](#known-bugs)
+  - [Fixed bugs](#fixed-bugs)
+  - [HTML Errors](#html-errors)
+  - [CSS Errors](#css-errors)
+- [Credits](#credits)
+- [Testing](#testing)
 
 ## UI / UX Concept
 
@@ -192,4 +221,4 @@ The musician's image was directly given to me by [Julián Gaviria](https://www.l
 
 ## Testing
 
-All links (internal and external) were tested, as well as the interaction with the languages.
+Please, refer to the Testing file [TESTING.md](TESTING.md).
