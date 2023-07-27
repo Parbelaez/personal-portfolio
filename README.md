@@ -191,6 +191,8 @@ To clone the personal-portfolio repository:
 
 [How to activate 'has' in Firefox](https://developer.mozilla.org/en-US/docs/Web/CSS/:has)
 
+It is considered a minor problem as the menu is intended to be used on mobile devices, and it is not visible on normal desktop resolutions.
+
 ### Fixed bugs
 
 - Images not loading due to the wrong path.
@@ -209,7 +211,7 @@ Spotify: *"Error: Bad value 100% for attribute width on element iframe: Expected
 
 ### CSS Errors
 
-- The w3c html validation is considered OK, as the errors are coming directly from the fonts and icons imports from Google Fonts and Fontawesome.
+- All of them are related to the 'has' selector, and 'translate' support. More info on the Testing file [TESTING.md](TESTING.md).
 
 ## Credits
 
