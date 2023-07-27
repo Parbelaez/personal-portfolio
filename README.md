@@ -187,7 +187,7 @@ To clone the personal-portfolio repository:
 
 ### Known bugs
 
-- Firefox still does not support the 'has' selector, so the hamburger menu is not working properly in this browser, unless 'has' is manually activated in the browser's settings.
+- Firefox (desktop) still does not support the 'has' selector, so the hamburger menu is not working properly in this browser, unless 'has' is manually activated in the browser's settings.
 
 [How to activate 'has' in Firefox](https://developer.mozilla.org/en-US/docs/Web/CSS/:has)
 
