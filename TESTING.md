@@ -88,3 +88,43 @@ Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | The hamburger menu should be available only for mobile devices, or after the resolution makes it impossible to keep using the normal menu. | - After certain resolution has been reached, the normal menu should disappear, and the hamburger menu should be visible. | Tested on different devices and, while on a laptop/desktop changed the resolution until the 1020px width resolution is reached.<br> ![Hamburger Menu Shift](./assets/images/testing/ham_menu_shift.gif) | All worked as expected | Pass |
 
 Back to [README.md](README.md)
+
+- - -
+
+### LIGHTHOUSE TESTING
+
+#### index.html
+
+![Lighthouse index.html](./assets/images/testing/lighthouse_index.png)
+
+#### engineering.html
+
+![Lighthouse engineering.html](./assets/images/testing/lighthouse_engineering.png)
+
+![Lighthouse engineering.html comments](./assets/images/testing/lighthouse_engineering_comments.png)
+
+As it can be seen in the snippet below, the image has an explicit width attribute (no height because the width should suffice).
+
+```css
+.thumb img {
+    width: 350px;
+}
+```
+
+The server change should be tackled by the hosting provider, as it is not possible to change it from the code.
+
+#### writing.html
+
+![Lighthouse writing.html](./assets/images/testing/lighthouse_writing.png)
+
+#### film.html
+
+![Lighthouse film.html](./assets/images/testing/lighthouse_film.png)
+
+#### music.html
+
+![Lighthouse music.html](./assets/images/testing/lighthouse_music.png)
+
+#### photography.html
+
+![Lighthouse photography.html](./assets/images/testing/lighthouse_photography.png)
