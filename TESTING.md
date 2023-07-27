@@ -8,27 +8,27 @@
 
 - music.html, music-es.html
 
-_Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead._
+  - _Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead._
 
-**Reason:** The width of the iframe is set to 100% so it can be responsive. The validator does not recognize this as a valid value.
+  **Reason:** The width of the iframe is set to 100% so it can be responsive. The validator does not recognize this as a valid value.
 
-_The frameborder attribute on the iframe element is obsolete. Use CSS instead._
+  - _The frameborder attribute on the iframe element is obsolete. Use CSS instead._
 
-**Reason:** The frameborder attribute is used to remove the border of the iframe and comes directly from the html embedded link provided by Spotify.
+  **Reason:** The frameborder attribute is used to remove the border of the iframe and comes directly from the html embedded link provided by Spotify.
 
 #### W3C HTML Validator Warnings
 
 - index.html, index-es.html
 
-_Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools)._ - [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosepmdc.github.io%2Fpersonal-portfolio%2Findex.html)
+  - _Consider using the h1 element as a top-level heading only (all h1 elements are treated as top-level headings by many screen readers and other tools)._ - [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosepmdc.github.io%2Fpersonal-portfolio%2Findex.html)
 
-**Reason:** the heading and the welcome message are both h1 elements, as they are both the first thing the user will see when entering the page, and they are both top-level headings in their own porpuses.
+  **Reason:** the heading and the welcome message are both h1 elements, as they are both the first thing the user will see when entering the page, and they are both top-level headings in their own porpuses.
 
 - engineering.html, engineering-es.html, writing.html, writing-es.html, music.html, music-es.html
 
-_Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles._ - [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosepmdc.github.io%2Fpersonal-portfolio%2Fengineering.html)
+  - _Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles._ - [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosepmdc.github.io%2Fpersonal-portfolio%2Fengineering.html)
 
-**Reason:** the design of the page does not allow for a heading to be added without breaking it.
+  **Reason:** the design of the page does not allow for a heading to be added without breaking it.
 
 ### CSS
 
