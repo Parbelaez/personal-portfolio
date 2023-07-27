@@ -66,18 +66,18 @@ Running a basic statement on the direct input, the validator throws the same err
 
 Full testing was performed on the following devices:
 
-* Laptop:
-  * Macbook Pro 2022 16 inch screen
-  * Lenovo Y510pa
-  * iPhone 12 pro
-  * iPad Air 4th generation
+- Laptop:
+  - Macbook Pro 2022 16 inch screen
+  - Lenovo Y510pa
+  - iPhone 12 pro
+  - iPad Air 4th generation
 
 Each device tested the site using the following browsers:
 
-* Google Chrome
-* Safari
-* Firefox
-* Edge
+- Google Chrome
+- Safari
+- Firefox
+- Edge
 
 Additional testing was taken by friends and family on a variety of devices and screen sizes.
 
